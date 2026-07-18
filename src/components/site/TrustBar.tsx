@@ -1,6 +1,6 @@
 import { Reveal } from "./Reveal";
 
-const brands = ["RIVERSIDE PLUMBING", "APEX HVAC", "BRIGHTSMILE DENTAL", "MERIDIAN LAW", "FORGE ELECTRIC", "KESTREL ROOFING"];
+const brands = ["TSMC", "APEX HVAC", "BRIGHTSMILE DENTAL", "MERIDIAN LAW", "FORGE ELECTRIC", "KESTREL ROOFING"];
 
 export function TrustBar() {
   const loop = [...brands, ...brands];
@@ -9,7 +9,7 @@ export function TrustBar() {
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <p className="text-center text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            Trusted by local service businesses across North America
+            Trusted by local businesses
           </p>
         </Reveal>
         <div

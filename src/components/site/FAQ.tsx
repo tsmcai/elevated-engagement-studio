@@ -8,11 +8,11 @@ const faqs = [
   },
   {
     q: "How long until I see results?",
-    a: "Chatbots and website changes ship in weeks. Local SEO compounds — you'll see early wins in 60–90 days and material traffic growth by month 6. Anyone promising overnight rankings is lying.",
+    a: "Chatbots and website changes ship in weeks. Local SEO compounds you'll see early wins in 60–90 days and material traffic growth by month 6. Anyone promising overnight rankings is lying.",
   },
   {
     q: "Am I locked into a long contract?",
-    a: "No. We work month-to-month after an initial 90-day sprint. If we're not earning our fee, you leave — and keep everything we built.",
+    a: "No. We work month-to-month after an initial 90-day sprint. If we're not earning our fee, you leave and keep everything we built.",
   },
   {
     q: "Do you guarantee rankings?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "Who owns the website and content?",
-    a: "You do. Fully. Code, copy, chatbot flows, analytics — all in your accounts, from day one. No hostage situations.",
+    a: "You do. Fully. Code, copy, chatbot flows, analytics all in your accounts, from day one. No hostage situations.",
   },
   {
     q: "What if I already have a website?",

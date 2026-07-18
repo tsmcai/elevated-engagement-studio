@@ -5,10 +5,10 @@ import { Reveal } from "./Reveal";
 type Stat = { value: number; suffix: string; decimals?: number; t: string; d: string };
 
 const stats: Stat[] = [
-  { value: 3.4, suffix: "×", decimals: 1, t: "more organic traffic", d: "The average lift across our 12-month engagements — not a best-case cherry pick." },
-  { value: 48, suffix: "%", t: "lower cost per lead", d: "By replacing paid ad dependency with owned channels that compound." },
-  { value: 24, suffix: "/7", t: "AI lead capture", d: "Your chatbot answers and qualifies before your competitor wakes up." },
-  { value: 100, suffix: "%", t: "yours to keep", d: "No lock-in. You own the site, content, and data from day one." },
+  { value: 3.4, suffix: "More Visibility", decimals: 1, t: "more organic traffic", d: "The average lift across our 12-month engagements not a best case cherry pick." },
+  { value: 48, suffix: "%", t: "lower cost", d: "By replacing paid ad with owned channels that compound." },
+  { value: 24, suffix: "/7", t: "AI Customer Support", d: "Your chatbot answers and qualifies before your competitor wakes up." },
+  { value: 100, suffix: "%", t: "yours to keep", d: "You own the site, content, and data from day one." },
 ];
 
 function CountUp({ to, decimals = 0, suffix }: { to: number; decimals?: number; suffix: string }) {
@@ -40,7 +40,7 @@ export function Benefits() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-primary-glow">Why it matters</p>
           <h2 className="mt-4 text-4xl font-semibold md:text-5xl">
-            Numbers that show up on your P&L.
+           Results You Can Measure.
           </h2>
         </Reveal>
 

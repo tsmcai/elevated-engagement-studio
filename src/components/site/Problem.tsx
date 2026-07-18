@@ -5,19 +5,19 @@ const pains = [
   {
     k: "01",
     t: "You're invisible on Google",
-    d: "When someone searches \"emergency plumber near me\" or \"best dentist in town,\" your competitor shows up. You don't. Every search is a customer you'll never know you lost.",
+    d: "When someone searches \"emergency plumber near me\" or \"best dentist in town,\" your competitor shows up.",
     Icon: EyeOff,
   },
   {
     k: "02",
     t: "Your website doesn't close",
-    d: "Traffic comes, looks around, and leaves. No call, no form, no booking. A pretty website that doesn't ring your phone is just an expensive brochure.",
+    d: "Traffic comes, looks around, and leaves. No call, no form, no booking.",
     Icon: PhoneOff,
   },
   {
     k: "03",
     t: "Leads slip through at night",
-    d: "A homeowner has a burst pipe at 11pm. They message three companies. The first one to respond wins. You answer in the morning. The job is already gone.",
+    d: "A homeowner has a burst pipe at 11pm. They message three companies. The first one to respond wins.",
     Icon: Clock,
   },
 ];
@@ -29,7 +29,7 @@ export function Problem() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-primary-glow">The problem</p>
           <h2 className="mt-4 text-4xl font-semibold md:text-5xl">
-            Every day you wait, you're handing jobs to the competition.
+          Every Day You Wait, Competitors Win More Guests.
           </h2>
         </Reveal>
 

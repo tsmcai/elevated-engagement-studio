@@ -42,7 +42,7 @@ export function Nav() {
             aria-hidden
             className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-full"
           />
-          <span className="relative">Free SEO audit</span>
+          <span className="relative"> Get My Demo</span>
         </a>
       </div>
     </header>

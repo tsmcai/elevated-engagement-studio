@@ -5,9 +5,9 @@ const line1 = ["Rank", "higher."];
 const line2 = ["Convert", "more."];
 
 const quickStats = [
-  { v: "412%", l: "more organic leads" },
-  { v: "53%", l: "lower cost per lead" },
-  { v: "24/7", l: "AI lead capture" },
+  { v: "Brand Image", l: "More clients" },
+  { v: "Increase Sales", l: "Lower cost" },
+  { v: "24/7", l: "No more missed calls" },
 ];
 
 export function Hero() {
@@ -125,9 +125,9 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
             className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground"
           >
-            Your customers are searching on Google right now. We make sure they find
-            <span className="text-foreground"> you</span> — not your competitor down the street.
-            SEO, websites, and AI chatbots built for local service businesses that need phones ringing, not clicks.
+            Customers are searching on Google right now. We make sure they find
+            <span className="text-foreground"> you</span> not your competitor.
+            SEO, websites, and AI chatbots built for businesses that convert not just clicks.
           </motion.p>
 
           <motion.div
@@ -144,7 +144,7 @@ export function Hero() {
                 aria-hidden
                 className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-full"
               />
-              <span className="relative">Get your free SEO audit</span>
+              <span className="relative">Get My Demo</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="relative transition-transform group-hover:translate-x-1">
                 <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>

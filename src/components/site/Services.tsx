@@ -12,15 +12,15 @@ const services = [
   {
     title: "Conversion Websites",
     outcome: "A site that turns clicks into phone calls.",
-    desc: "Fast, mobile-first websites designed for one thing: getting visitors to call, book, or request a quote. Built in weeks, not months.",
-    points: ["Click-to-call & instant booking", "Sub-second load on mobile", "You own it — no lock-in"],
+    desc: "Fast, mobile first websites designed for one thing: getting visitors to call, book, or request. Built in weeks, not months.",
+    points: ["Click to call & instant booking", "Subsecond load on mobile", "You own it no lock in"],
     Icon: Globe,
   },
   {
     title: "AI Chatbots",
     outcome: "Capture every lead, even at 2am.",
-    desc: "A custom AI assistant trained on your services that answers questions, books appointments, and qualifies leads 24/7 — so no job slips away.",
-    points: ["Trained on your services & pricing", "Books appointments directly", "Hands off to you for complex jobs"],
+    desc: "A custom AI assistant trained on your services that answers questions, books appointments 24/7.",
+    points: ["Trained on your services & pricing", "Books appointments directly", "Hands off to you for repetitive task"],
     Icon: MessageSquare,
   },
 ];
@@ -32,10 +32,10 @@ export function Services() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-xs uppercase tracking-[0.2em] text-primary-glow">Our solution</p>
           <h2 className="mt-4 text-4xl font-semibold md:text-5xl">
-            One partner. The full growth stack.
+            One partner. Unlimited Growth.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            SEO, website, and chatbot designed to work as one system — so every search becomes a call, and every call becomes a job.
+          One connected system that helps people find you, trust you, and contact you.
           </p>
         </Reveal>
 
